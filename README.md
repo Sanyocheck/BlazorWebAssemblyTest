@@ -1,1 +1,1 @@
-BlazorWebAssemblyTest
+[BlazorWebAssemblyTest](https://sanyocheck.github.io/BlazorWebAssemblyTest/)
