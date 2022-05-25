@@ -1,0 +1,15 @@
+﻿@page "/text-length-calculator"
+
+<PageTitle>Text Length Calculator</PageTitle>
+
+<h1>Text Length Calculator</h1>
+
+<div class="form-group">
+    <label>Your text length: @_text.Length</label>
+    <textarea @bind="_text" @bind:event="oninput" class="form-control" rows="15"></textarea>
+  </div>
+
+@code 
+{
+    private string _text { get; set; } = "";
+}
